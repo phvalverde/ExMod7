@@ -37,6 +37,10 @@ public class Cliente {
     public void imprimirNome() {
         System.out.println(this.nome);
     }
+
+    /**
+     * @return Referente ao valor total gasto
+     */
     public int getValorTotal() {
         return 20;
     }
