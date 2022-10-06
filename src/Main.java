@@ -1,16 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Olá, Paulo");
+        System.out.println("Olá Professor, aqui está as informações solicitadas");
+
         Cliente cliente = new Cliente();
-            //Cadastro das informações
-        cliente.cadastrarEndereco("Rua Monte Alegre, 15");
-        cliente.cadastrarNome("Leila Valverde");
-        cliente.setCodigo(13);
-            //Imprimir as informações
+
+            //Cadastrando informações recebidas
+        cliente.cadastrarEndereco("Dagobah");
+        cliente.cadastrarNome("Anakin Skywalker");
+        cliente.setCodigo(666);
+
+            //Imprimindo dados
         System.out.println(cliente.getCodigo());
         cliente.imprimirNome();
         cliente.imprimirEndereco();
         System.out.println(cliente.getValorTotal());
 
+        /*
+          Exercício do módulo 7
+
+          @author Paulo.Valverde
+         */
     }
 }
