@@ -1,3 +1,5 @@
+package tarefa_classes;
+
 public class Cliente {
 
     private int codigo;

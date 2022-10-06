@@ -1,3 +1,5 @@
+package tarefa_classes;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Olá Professor, aqui está as informações solicitadas");
@@ -15,10 +17,8 @@ public class Main {
         cliente.imprimirEndereco();
         System.out.println(cliente.getValorTotal());
 
-        /*
-          Exercício do módulo 7
-
-          @author Paulo.Valverde
-         */
+        // Exercício do módulo 7
+        //
+        // @author Paulo.Valverde
     }
 }
